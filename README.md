@@ -4,25 +4,24 @@ Tables
 
 sales_data.xlsx
 
-	transaction id	: a 6-digit integer to uniquely identify each transaction. A prefix of 'c' in the transaction id indicates a cancelled transaction.
-	product id : Unique identifier of the item sold.
-	product description : Name of the product being sold.
-	quantity sold : quantity of the item sold.		
-	transaction timestamp : the time at which transaction happened. This column can be used to join this table with the date.xlsx to obtain attributes of timestamp. 	
-	unit price : per piece price of the item sold.
-	customer id  : Unique identifier of the customer who made the purchase.
-	transaction country : The country where product was sold.
+transaction id	: a 6-digit integer to uniquely identify each transaction. A prefix of 'c' in the transaction id indicates a cancelled transaction.
+product id : Unique identifier of the item sold.
+product description : Name of the product being sold.
+quantity sold : quantity of the item sold.		
+transaction timestamp : the time at which transaction happened. This column can be used to join this table with the date.xlsx to obtain attributes of timestamp. 	
+unit price : per piece price of the item sold.
+customer id  : Unique identifier of the customer who made the purchase.
+transaction country : The country where product was sold.
 
 
 date.xlsx
 
-
-  timestamp : self explanatory	
-	date : self explanatory	
-	day_name : self explanatory	
-	day_of_month : self explanatory	
-	month_of_year : self explanatory	
-	time_of_day(hh:mm:ss) : self explanatory
+timestamp : self explanatory	
+date : self explanatory	
+day_name : self explanatory	
+day_of_month : self explanatory	
+month_of_year : self explanatory	
+time_of_day(hh:mm:ss) : self explanatory
   
   
   
